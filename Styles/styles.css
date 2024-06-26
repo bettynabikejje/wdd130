@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -20,7 +25,7 @@ img {
 p {
     padding: 10px;
 }
-/* class selector */
+/* class selectors */
  .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
@@ -39,7 +44,7 @@ p {
  }
  aside h2 {
     position: absolute;
-    top: 1px;
-    left: 90px;
+    top: 10px;
+    left: 70px;
     color: #fff;
  }
