@@ -98,6 +98,7 @@ section {
 footer {
     background-color: var(--primary-color);
     padding: 20px;
+    width: 100%;
 }
 
 .footer-content {
@@ -128,6 +129,7 @@ footer {
 /* Updated styles for aligning icons to the left */
 .footer-content {
     justify-content: flex-end;
+    
 }
 
 .footer-content p {

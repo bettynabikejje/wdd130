@@ -23,6 +23,7 @@ body {
     color: var(--primary-color);
 }
 header {
+    width: 100%;
     display: grid;
     padding: 20px;
     background-color: var(--accent1-color);
@@ -47,4 +48,24 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-bayckground-color);
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+.footer-content{
+    width: 100%;
 }
