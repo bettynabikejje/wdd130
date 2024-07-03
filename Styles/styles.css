@@ -2,10 +2,14 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-header, footer {
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
 }
+.grid {
+    display: grid;
+    align-items: center;
+ }
 * {
     margin: 0;
     padding: 0;
@@ -65,14 +69,6 @@ p {
     top: 10px;
     left: 70px;
     color: #fff;
- }
- header, .grid, footer {
-    max-width: 840px;
-    margin: 0 auto;
- }
- .grid {
-    display: grid;
-    align-items: center;
  }
  main {
     grid-column: 2/3;
