@@ -18,10 +18,10 @@ body {
 header {
     margin: 1rem auto;
     display: grid;
-    justify-content: space-between;
+    grid-template-columns: 120px 1fr 2fr;
     align-items: center;
-    padding: 10px 20px;
-    background-color: var(--primary-color);
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 
 .logo img {
