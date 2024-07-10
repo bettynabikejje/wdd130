@@ -72,9 +72,12 @@ nav ul li a:hover{
     text-align: center;
     margin: 10px;
 }
+h2{
+    text-align: center;
+}
 
 .employee img {
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 50%;
 }
 
