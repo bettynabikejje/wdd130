@@ -45,14 +45,19 @@
                     <img src="images/employee3.jpg" alt="employee 3">
                     <p>John Ssentamu, safety instructor</p>
             </div>
+        </section>
             <section id="contact-form">
                 <h2>Send Us a Message</h2>
-                <form action="submit contact.html" method="post">
-                    <div class="form group">
+                <form action="submit-contact.html" method="post">
+                    <div class="form-group">
                          <label for="name">Name:</label>
                           <input type="text" id="name" name="name" required>
                     </div>
-                    <div class="form group">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
                          <label>Purpose of the Message:</label>
                          <input type="radio" id="general" name="purpose" value="general inquiry">
                          <label for="general">General Inquiry></label>
@@ -61,12 +66,12 @@
                          <input type="radio" id="Suggestion" name="Purpose" value="Website Suggestion">
                           <label for="Suggestion">Website Suggestion</label>
                     </div>
-                    <div class="form group">
+                    <div class="form-group">
                        <input type="checkbox" id="subscribe" name="subscribe">
                        <label for="subscribe">Please subscribe to the monthly news letter</label>
                     </div>
-                    <div class="form group">
-                          <button type="submit">Submit Message</button>
+                    <div class="form-group">
+                        <button type="submit">Submit Message</button>
                     </div>
                 </form>
             </section>
