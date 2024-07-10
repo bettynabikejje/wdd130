@@ -17,11 +17,12 @@ body {
 
 header {
     margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    display: flex;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
+    background-color: aqua;
+    color: black;
 }
 
 .logo img {
@@ -43,7 +44,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 10px 15px;
     border-radius: 5px;
 }
