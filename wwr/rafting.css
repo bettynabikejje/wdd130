@@ -127,6 +127,24 @@ textarea {
 .info-item h3 {
     margin-top: 0;
 }
+.trips-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adds space between grid items */
+}
+
+.trip {
+    background-color: #eceff5; /* Optional: Add a background color */
+    padding: 10px;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Match the rounded corners */
+}
 
 button {
     background-color: #1f1f7a;
@@ -145,6 +163,7 @@ button:hover {
 footer {
     background-color: var(--primary-color);
     padding: 20px;
+    color: black;
     max-width: 100%;
 }
 
@@ -156,7 +175,7 @@ footer {
 
 .footer-content p {
     margin: 0;
-    color: #fff;
+    color: #000;
 }
 
 .social-icons {
